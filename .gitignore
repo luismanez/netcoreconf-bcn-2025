@@ -398,3 +398,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+src/diagnostic/Abyx.AI.Diagnostic/appsettings.json
+src/evaluation/Abyx.AI.Evaluation/appsettings.json
+src/evaluation/Abyx.AI.EvaluationTests/testsettings.json
