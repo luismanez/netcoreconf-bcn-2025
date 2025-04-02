@@ -1,0 +1,1 @@
+# netcoreconf-bcn-2025
