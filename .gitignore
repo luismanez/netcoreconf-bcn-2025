@@ -401,3 +401,8 @@ FodyWeavers.xsd
 src/diagnostic/Abyx.AI.Diagnostic/appsettings.json
 src/evaluation/Abyx.AI.Evaluation/appsettings.json
 src/evaluation/Abyx.AI.EvaluationTests/testsettings.json
+src/.idea/.idea.Abyx.AI/.idea/.gitignore
+src/.idea/.idea.Abyx.AI/.idea/.name
+src/.idea/.idea.Abyx.AI/.idea/encodings.xml
+src/.idea/.idea.Abyx.AI/.idea/indexLayout.xml
+src/.idea/.idea.Abyx.AI/.idea/vcs.xml

@@ -10,18 +10,24 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="coverlet.collector" Version="6.0.0"/>
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0"/>
-        <PackageReference Include="xunit" Version="2.5.3"/>
-        <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3"/>
-        <PackageReference Include="Microsoft.Extensions.AI.Evaluation" Version="9.3.0-preview.1.25114.11" />
-        <PackageReference Include="Microsoft.Extensions.AI.Evaluation.Reporting" Version="9.3.0-preview.1.25114.11" />
-        <PackageReference Include="Microsoft.Extensions.AI.Evaluation.Quality" Version="9.3.0-preview.1.25114.11" />
-        <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="9.3.0-preview.1.25114.11" />
-        <PackageReference Include="Microsoft.KernelMemory.Core" Version="0.97.250211.1" />
-        <PackageReference Include="Microsoft.KernelMemory.AI.AzureOpenAI" Version="0.97.250211.1" />
-        <PackageReference Include="Microsoft.KernelMemory.MemoryDb.AzureAISearch" Version="0.97.250211.1" />
-        <PackageReference Include="FluentAssertions" Version="8.1.1" />
+        <PackageReference Include="coverlet.collector" Version="6.0.4">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.0-preview-25107-01" />
+        <PackageReference Include="xunit" Version="2.9.3" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="3.0.2">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.Extensions.AI.Evaluation" Version="9.3.0-preview.1.25164.6" />
+        <PackageReference Include="Microsoft.Extensions.AI.Evaluation.Reporting" Version="9.3.0-preview.1.25164.6" />
+        <PackageReference Include="Microsoft.Extensions.AI.Evaluation.Quality" Version="9.3.0-preview.1.25164.6" />
+        <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="9.3.0-preview.1.25161.3" />
+        <PackageReference Include="Microsoft.KernelMemory.Core" Version="0.98.250324.1" />
+        <PackageReference Include="Microsoft.KernelMemory.AI.AzureOpenAI" Version="0.98.250324.1" />
+        <PackageReference Include="Microsoft.KernelMemory.MemoryDb.AzureAISearch" Version="0.98.250324.1" />
+        <PackageReference Include="FluentAssertions" Version="8.2.0" />
     </ItemGroup>
 
     <ItemGroup>

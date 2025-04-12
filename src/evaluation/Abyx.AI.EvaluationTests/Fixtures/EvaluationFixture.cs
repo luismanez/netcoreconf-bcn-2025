@@ -15,8 +15,8 @@ namespace Abyx.AI.EvaluationTests.Fixtures;
 
 public class EvaluationFixture : IAsyncLifetime
 {
-    public IKernelMemory Memory { get; internal set; } = null!;
-    public ReportingConfiguration ReportingConfigurationWithEquivalenceAndGroundedness { get; internal set; } = null!;
+    public IKernelMemory Memory { get; private set; } = null!;
+    public ReportingConfiguration ReportingConfigurationWithEquivalenceAndGroundedness { get; private set; } = null!;
 
     public async Task InitializeAsync()
     {
@@ -35,8 +35,7 @@ public class EvaluationFixture : IAsyncLifetime
                 evaluators: [
                     new EquivalenceEvaluator(), 
                     new GroundednessEvaluator(), 
-                    new RelevanceTruthAndCompletenessEvaluator(
-                        new RelevanceTruthAndCompletenessEvaluatorOptions(true))],
+                    new RelevanceTruthAndCompletenessEvaluator()],
                 chatConfiguration: GetAzureOpenAiChatConfiguration(configuration),
                 enableResponseCaching: false,
                 executionName: $"Execution_{DateTime.Now:yyyyMMddTHHmmss}");
